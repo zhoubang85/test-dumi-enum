@@ -8,7 +8,7 @@
     />
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/saber2pr-umi/test-dumi-enum@gh-pages/umi.c10a6f6f.css"
+      href="//cdn.jsdelivr.net/gh/saber2pr-umi/test-dumi-enum@gh-pages/umi.331878c1.css"
     />
     <script>
       window.routerBase = "/test-dumi-enum";
@@ -23,7 +23,7 @@
           r = ["light", "dark", "auto"];
         document.documentElement.setAttribute(
           "data-prefers-color",
-          e === r[2] ? (t ? r[1] : r[0]) : r.includes(e) ? e : r[0]
+          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) > -1 ? e : r[0]
         );
       })();
     </script>
@@ -31,6 +31,6 @@
   <body>
     <div id="root"></div>
 
-    <script src="//cdn.jsdelivr.net/gh/saber2pr-umi/test-dumi-enum@gh-pages/umi.5d4aa64a.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/saber2pr-umi/test-dumi-enum@gh-pages/umi.a77257cc.js"></script>
   </body>
 </html>
