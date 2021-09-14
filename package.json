@@ -21,7 +21,7 @@
     ]
   },
   "devDependencies": {
-    "dumi": "^1.1.26",
+    "dumi": "1.1.27",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "typescript": "^4.4.2",

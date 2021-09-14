@@ -532,10 +532,10 @@
     regenerator-runtime "0.13.5"
     schema-utils "^3.0.0"
 
-"@umijs/preset-dumi@1.1.26":
-  version "1.1.26"
-  resolved "https://registry.npmjs.org/@umijs/preset-dumi/-/preset-dumi-1.1.26.tgz#864bb0b004816df6cb985ab1f1557646cc67e94f"
-  integrity sha512-z4Gh3K0oSobWdTAjZochy9c6J2qkWFTkPDLCPOiDfB9zUACErAFVqSJ+trKbC7UvdEQ18y2u2wY/j2Jf+5MQeg==
+"@umijs/preset-dumi@1.1.27":
+  version "1.1.27"
+  resolved "https://registry.npmjs.org/@umijs/preset-dumi/-/preset-dumi-1.1.27.tgz#0ca303bac600e4f2bac02f2e9f84f5aef000870f"
+  integrity sha512-YKchYsmcD7C1XkU0D3AkY+UDJxZhFll7gDxvkgunmmOlPRMdXJov3Oj/l0OYGMxf3X7AmvCnXzjqPCPHP2B+3Q==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -551,7 +551,7 @@
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
     dumi-assets-types "1.0.0"
-    dumi-theme-default "1.1.9"
+    dumi-theme-default "1.1.10"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -1455,21 +1455,21 @@ dumi-assets-types@1.0.0:
   resolved "https://registry.npm.taobao.org/dumi-assets-types/download/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
   integrity sha1-1TaMsRBFsgO/HvEIDlU7Ioei7IE=
 
-dumi-theme-default@1.1.9:
-  version "1.1.9"
-  resolved "https://registry.npmjs.org/dumi-theme-default/-/dumi-theme-default-1.1.9.tgz#e7aad356b5ecafcd3a8e2e57ddd811197527e397"
-  integrity sha512-wO1+qDlW8ZOEiFI5ZS00X60vsJ++7aHd7CbxfyrF5eMAm7T37Izi0iKDNoQtKzZrb8OThNAkCh+DVubindfDXA==
+dumi-theme-default@1.1.10:
+  version "1.1.10"
+  resolved "https://registry.npmjs.org/dumi-theme-default/-/dumi-theme-default-1.1.10.tgz#c91e455b71188c99a7b79788d5d427d5ce01be83"
+  integrity sha512-g4o62cbSCOHScGYeiNy4GGr1UYCWo/QL0Onuxvf62AogeTiNVGAhSHBMQv0XifwG0C6IcDrn5sOcu4wCLowTDQ==
   dependencies:
     prism-react-renderer "^1.1.1"
     prismjs "^1.21.0"
     rc-tabs "^11.7.1"
 
-dumi@^1.1.26:
-  version "1.1.26"
-  resolved "https://registry.npmjs.org/dumi/-/dumi-1.1.26.tgz#7247ed9fd66ae7ac81b07e21c99d9fd89f5cf6a9"
-  integrity sha512-gnr8I4MhdeePEjg2Yt90jK90SJIDRC64wHqoN89c63aWWW2kNcs3c069uizBy8ZQcHqeRJxa3KJE0w+FslmVOA==
+dumi@1.1.27:
+  version "1.1.27"
+  resolved "https://registry.npmjs.org/dumi/-/dumi-1.1.27.tgz#91580b8bab0e1c586122b1378f0faca80ebd1859"
+  integrity sha512-XiCkoNyWCAsh7LBZ1u1OV3DWecmln01npFDYI9TO/ESRzowAJUfpozcHJfqRVYQsvOG9gPDYCXTwk/wzgf6jrw==
   dependencies:
-    "@umijs/preset-dumi" "1.1.26"
+    "@umijs/preset-dumi" "1.1.27"
     umi "^3.0.0"
 
 electron-to-chromium@^1.3.830:
