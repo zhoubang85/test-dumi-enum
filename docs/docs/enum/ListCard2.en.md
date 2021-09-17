@@ -1,9 +1,7 @@
 ---
-group:
-  title: Enum
-title: ListCard
+title: ListCard2
 ---
 
-ListCard
+ListCard2
 
 <API src="../../../lib/ListCard/index.d.ts"></API>
