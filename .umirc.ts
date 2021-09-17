@@ -6,6 +6,8 @@ const isProd =
 const repo = 'saber2pr-umi/test-dumi-enum';
 
 export default defineConfig({
+  ssr: isProd ? {} : false,
+  exportStatic: isProd ? {} : false,
   title: 'Site Name',
   mode: 'site',
   locales: [
@@ -17,7 +19,5 @@ export default defineConfig({
   },
   hash: isProd,
   base: isProd ? `/${repo.split('/')[1]}` : '/',
-  publicPath: isProd
-    ? `//cdn.jsdelivr.net/gh/${repo}@gh-pages/`
-    : '/',
+  publicPath: isProd ? `//cdn.jsdelivr.net/gh/${repo}@gh-pages/` : '/',
 });
